@@ -37,9 +37,8 @@ export function ToDoInput({
       isChecked: false
     });
     updatetodos([...taskList, task]);
-    // updatetodos(taskList);
   }
-
+  updatetodos(taskList);
   function updatetodos(list) {
     localStorage.setItem("listToDo", JSON.stringify(list));
   }
