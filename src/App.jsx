@@ -37,7 +37,7 @@ function App() {
 export default App;
 function TodoBackground({ children }) {
   return (
-    <div className="bg-white   min-h-64 text-center mt-[18%] rounded-3xl border-4 border-black border-double">
+    <div className="bg-white md:w-[550px] pb-4 min-h-64 text-center mt-[18%] rounded-3xl border-4 border-black border-double">
       {children}
     </div>
   );
