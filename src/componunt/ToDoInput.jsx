@@ -53,15 +53,15 @@ export function ToDoInput({
 
   return (
     <>
-      <h1 className="text-3xl md:text-4xl text-b mb-2 mt-4 underline  ">
+      <h1 className="text-3xl text-b mb-2 mt-4 underline md:text-4xl ">
         TO Do List
       </h1>
-      <div className="flex justify-center mb-3">
+      <div className="flex justify-center mb-3 px-2">
         <input
           value={task.task}
           type="text"
           placeholder="Add task "
-          className="bg-gray-100 border-yellow-400 border-2 rounded-md md:text-xl "
+          className="bg-gray-100 border-yellow-400 border-2 rounded-md md:text-xl   "
           onChange={handleInput}
         />
         {/* <button className="bg-gray-100 border-yellow-400 border-2 rounded-md ml-1">
